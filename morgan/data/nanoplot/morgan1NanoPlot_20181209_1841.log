@@ -1,0 +1,21 @@
+2018-12-09 18:41:50,238 NanoPlot 1.19.0 started with arguments Namespace(N50=False, alength=False, bam=None, barcoded=False, color='#4CB391', cram=None, downsample=None, dpi=100, drop_outliers=False, fasta=None, fastq=None, fastq_minimal=None, fastq_rich=None, font_scale=1, format='png', listcolors=False, loglength=False, maxlength=None, minlength=None, minqual=None, no_N50=False, outdir='viz', percentqual=False, pickle=None, plots=['kde', 'dot'], prefix='morgan1', raw=False, readtype='1D', runtime_until=None, store=False, summary=['/mnt/lustre/macmaneslab/devon/nanoPore/reads/hssci/albout/sequencing_summary.txt'], threads=24, title=None, verbose=False)
+2018-12-09 18:41:50,238 Python version is: 3.6.7 | packaged by conda-forge | (default, Nov 21 2018, 02:32:25)  [GCC 4.8.2 20140120 (Red Hat 4.8.2-15)]
+2018-12-09 18:41:50,306 Nanoplotter: valid output format png
+2018-12-09 18:41:50,391 Nanoget: Collecting metrics from summary file /mnt/lustre/macmaneslab/devon/nanoPore/reads/hssci/albout/sequencing_summary.txt for 1D sequencing
+2018-12-09 18:41:58,002 Nanoget: Finished collecting statistics from summary file /mnt/lustre/macmaneslab/devon/nanoPore/reads/hssci/albout/sequencing_summary.txt
+2018-12-09 18:41:59,670 Reduced DataFrame memory usage from 539.4784088134766Mb to 272.00618171691895Mb
+2018-12-09 18:42:01,602 Nanoget: Gathered all metrics of 2376824 reads
+2018-12-09 18:42:03,193 Calculated statistics
+2018-12-09 18:42:03,193 Using sequenced read lengths for plotting.
+2018-12-09 18:42:03,196 Nanoplotter: Valid color #4CB391.
+2018-12-09 18:42:03,365 Nanoplotter: Creating length plots for Read length.
+2018-12-09 18:42:03,373 Nanoplotter: Using 2376824 reads maximum of 357643bp.
+2018-12-09 18:42:19,316 Created length plots
+2018-12-09 18:42:19,642 Nanoplotter: Creating Read lengths vs Average read quality plots using statistics from 2376824 reads.
+2018-12-09 18:42:33,576 Created LengthvsQual plot
+2018-12-09 18:42:33,577 Nanoplotter: Creating heatmap of reads per channel using 2376824 reads.
+2018-12-09 18:42:33,810 Created spatialheatmap for succesfull basecalls.
+2018-12-09 18:42:34,283 Nanoplotter: Creating timeplots using 2376824 reads.
+2018-12-09 18:42:58,203 Created timeplots.
+2018-12-09 18:42:58,203 Writing html report.
+2018-12-09 18:43:15,777 Finished!
